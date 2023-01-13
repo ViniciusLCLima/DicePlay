@@ -1,0 +1,25 @@
+.Die{
+    color:blueviolet;
+    font-size: 130px;
+    margin: 30px 30px 60px 30px;
+}
+@keyframes dice{
+    25%{
+        transform: translateX(-40px) rotate(-15deg)
+    }
+    50%{
+        transform: translateX(40px) rotate(15deg)
+    }
+    75%{
+        transform: translateX(-15px) rotate(5deg)
+    }
+    100%{
+        transform: translateX(0px) rotate(0deg)
+    }
+}
+
+.vibrate{
+    animation-name: dice;
+    animation-duration: 1s;
+}
+    
